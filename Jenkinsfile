@@ -1,8 +1,8 @@
 #!groovy
-sleep 15
+sleep 30
 node {
   checkout scm
   sh 'ls -l'
 }
-sleep 15
+sleep 30
 echo 'Have some fixes!'
